@@ -1,0 +1,165 @@
+html{
+    margin: 0;
+    padding:0;
+    
+}
+
+div { 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: #777777;
+
+}
+
+header {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    height: auto;
+    padding: 0;
+    margin-bottom: 0;
+    width: 960px;
+    height: auto;
+    }
+img {
+    padding: 0;
+    margin: 0;
+}
+header h1 {
+        float: left;
+        background-color: #4aaaa5;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        padding: 20px;
+        width: 300px;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
+        color: #ffffff;
+}
+
+header ul {
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+.main-content {
+    margin: 0px auto;
+    clear: both;
+    background-image: url("../images/stone.png");
+    border-top: 2px solid #cccccc;
+    border-bottom: 5px solid #4aaaa5;
+}
+
+.container {
+    width: 960px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    border: 1.2px solid #dddddd;
+}
+
+.container h2 {
+        color: #4aaaa5;
+        font-weight: bold;
+        border-bottom: 2px solid #cccccc;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-size: 20pt;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    border-top: 10px #4aaaa5;
+    margin-top: 20px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+
+}
+.container img {
+    margin-right: 20px;
+    width: 400px;
+    height: auto;
+}
+/* Specific styling for About page */
+.headshot {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+/* Styling for form page */
+form label {
+    display: block;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+}
+.button {
+    background: #4aaaa5;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+/* Portfolio Page */
+
+.clearfix {
+    overflow: auto;
+}
+
+.portfolio-img {
+    position: relative;
+    width: 400px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    float: left;
+}
+.img-text {
+    position: absolute;
+    bottom: 35px;
+    width: 400px;
+    background: #4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #ffffff;
+    
+}
